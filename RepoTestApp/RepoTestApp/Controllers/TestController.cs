@@ -12,6 +12,8 @@ namespace RepoTestApp.Controllers
         public ActionResult Index()
         {
              int a=10;
+            int b = 15;
+            int r = a + b;
             return View();
         }
     }
